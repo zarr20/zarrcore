@@ -1,0 +1,28 @@
+{
+  "name": "zarcore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/zarcore.min.js",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Dzarr al ghifari",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.6",
+    "postcss-cli": "^11.0.0",
+    "postcss-import": "^16.1.0",
+    "rollup": "^2.79.2",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "dependencies": {
+    "postcss": "^8.4.48"
+  }
+}
